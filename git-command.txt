@@ -1,0 +1,13 @@
+    git init 
+    git status
+    git add python.py
+    git status
+    git rm --cached python.py
+    git status
+    git add .
+    git status
+    git commit -m "added python file"
+    git status
+    rm python.py 
+    git status
+    git restore python.py
